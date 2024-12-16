@@ -19,9 +19,9 @@
                             <img src="assets/images/me.jpg" sizes="100vw" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;color:transparent">
                         </div>
                         <h1 class="text-4xl font-bold mb-2">Nikka</h1>
-                        <h2 class="text-xl text-gray-400 mb-2">Developer</h2>
-                        <h3 class="text-l text-gray-400 mb-5">📍 Philippines</h3>
-                        <p class="text-gray-300 text-sm">Student developer interested in Full Stack Development and Embedded Systems</p>
+                        <h2 class="text-2xl text-gray-400 mb-2">Developer</h2>
+                        <h3 class="text-lg text-gray-400 mb-5">📍 Philippines</h3>
+                        <p class="text-gray-300 text-s">Student developer interested in Full Stack<br> Development and Embedded Systems</p>
                     </header>
                     
                     <!-- Contact Card -->
@@ -52,44 +52,39 @@
             </section>
 
             <!-- Right side -->
-            <section class="xl:ml-[40%] w-full xl:w-3/5 min-h-screen min-w-[500px] max-w-[1200px] mx-auto">
-                <main>
+            <section class="xl:ml-[40%] w-full xl:w-3/5 min-h-screen min-w-[500px] max-w-[1200px] mx-auto" style="opacity: 1;">
+                <main class="p-8 xl:p-12 xl:pr-[10%]">
                     <!-- About me -->
-                    <div><section>
-                        <h2>About me</h2>
-                        <p>I'm currently a student majoring in Computer Science with an interest in Full stack development and Embedded Systems. I enjoy doing UI design for my projects and I also used to be an artist before gettign in to software engineering</p>
-                    </section></div>
-
-                    <!-- Skills -->
-                     <div><section>
-                        <h2>Skills</h2>
-
-                        <div class="languages">
-                            <h4>Languages</h4>
-                            <div>
-                                <span>Javascript</span>
-                                <span>Python</span>
-                                <span>PHP</span>
-                            </div>
-                        </div>
-
-                        <div class="databases">
-                            <h4>Databases</h4>
-                            <div>
-                                <span>MariaDB</span>
-                                <span>SQL</span>
-                            </div>
-                        </div>
-
-                        <div class="backend">
-                            <h4>Backend</h4>
-                            <div>
-                                <span>Apache Web Server</span>
-                            </div>
-                        </div>
-
-                    </section></div>
+                    <div style="opacity: 1; transform: none;">
+                        <section class="mb-8">
+                            <h2 class="text-3xl font-bold mb-6 text-gray-100">About me</h2>
+                            <p class="text-gray-300 mb-4">
+                                I'm currently a student majoring in Computer Science with an interest in Full stack development and Embedded Systems. I enjoy doing UI design for my projects and I also used to be an artist before gettign in to software engineering
+                            </p>
+                        </section>
+                    </div>
                     
+                    <!-- Technologies -->
+                    <div style="opacity: 1; transform: none;">
+                        <section>
+                            <h2 class="text-3xl font-bold mb-6 text-gray-100">Technologies</h2>
+                            
+                            <!-- Languages -->
+                            <div class="mb-4">
+                                <div class="flex flex-wrap">
+                                    <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-400 mr-2 mb-2 rounded-full">Javascript</span>
+                                    <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-400 mr-2 mb-2 rounded-full">Python</span>
+                                    <span class="inline-block bg-violet-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-violet-400 mr-2 mb-2 rounded-full">PHP</span>
+                                    <span class="inline-block bg-blue-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-blue-400 mr-2 mb-2 rounded-full">MariaDB</span>
+                                    <span class="inline-block bg-rose-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-rose-400 mr-2 mb-2 rounded-full">Apache Web Server</span>
+                                    <span class="inline-block bg-amber-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-amber-400 mr-2 mb-2 rounded-full">SQL</span>
+                                    <span class="inline-block bg-orange-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-orange-400 mr-2 mb-2 rounded-full">Git</span>
+                                    <span class="inline-block bg-cyan-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-cyan-400 mr-2 mb-2 rounded-full">Tailwind</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
                     <!-- Projects -->
                     <div style="opacity: 1; transform: none;">
                         <section class="mb-12">
@@ -102,7 +97,7 @@
 
                                         <!-- Content of the project card -->
                                         <div class="md:w-1/3 mb-4 md:mb-0 md:mr-6">
-                                            <img src="assets/images/projects/project-template.webp" class="rounded-lg object-cover shadow-lg hover:shadow-xl transition-shadow duration-300" width="700px" height="700px">
+                                            <img src="assets/images/projects/student-regis.png" class="rounded-lg object-cover shadow-lg hover:shadow-xl transition-shadow duration-300" width="700px" height="700px">
                                         </div>
                                         <div class="md:w-2/3">
                                             <h3 class="text-2xl font-semibold mb-3 text-gray-100">Student Registration System</h3>
@@ -117,8 +112,8 @@
                                                 </li>
                                             </ul>
                                             <div class="flex flex-wrap">
-                                                <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-600 mr-2 mb-2 rounded-full">Python</span>
-                                                <span class="inline-block bg-amber-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-amber-600 mr-2 mb-2 rounded-full">CTkinter</span>
+                                                <span class="inline-block bg-yellow-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-yellow-400 mr-2 mb-2 rounded-full">Python</span>
+                                                <span class="inline-block bg-amber-600 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-amber-400 mr-2 mb-2 rounded-full">CTkinter</span>
                                             </div>
                                             <div class="flex space-x-4 mt-4">
                                                 <a class="flex items-center text-gray-300 hover:text-white transition-colors duration-300" href="https://github.com/ddalki1205/registration_system" target="_blank" rel="noopener noreferrer">
@@ -136,7 +131,7 @@
 
                                         <!-- Content of the project card -->
                                         <div class="md:w-1/3 mb-4 md:mb-0 md:mr-6">
-                                            <img src="assets/images/projects/project-template.webp" class="rounded-lg object-cover shadow-lg hover:shadow-xl transition-shadow duration-300" width="700px" height="700px">
+                                            <img src="assets/images/projects/regis-website.png" class="rounded-lg object-cover shadow-lg hover:shadow-xl transition-shadow duration-300" width="700px" height="700px">
                                         </div>
                                         <div class="md:w-2/3">
                                             <h3 class="text-2xl font-semibold mb-3 text-gray-100">Registration Website</h3>
